@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitchell's Resume</title>
+    <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script defer src="script.js"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    
+    <!--navigation menue-->
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos= "zoom-in" data-aos-duration= "1500">
+                <span>Mitchell</span>
+            </div>
+            <div class = "links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay='100'><a href="#home">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#about">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#projects">Projects</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#skills">Results</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#services">Languages</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#contact">Contact</a></div>
+            </div>
+            <i class ="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+        </div>
+            <div class="dropdown">
+                <div class="links">
+                    <a href = "#home">Home</a>
+                    <a href = "#about">About</a>
+                    <a href = "#projects">Projects</a>
+                    <a href = "#skills">Results</a>
+                    <a href = "#services">Languages</a>
+                    <a href = "#contact">Contact</a>
+                    <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+                    
+                </div>
+            </div>
+    </nav>
+    <section>
+        <div class="main-container">
+            <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+                <img src="SidScrubbed.webp" alt="">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hey I'm <span>Mitchell</span></h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">I'm a
+                    <span class="typewriter-text" data-aos="flip-up" data-aos-duration="1100" data-aos-delay="900">musician, specs</span>
+                    <label for="">|</label>
+                </div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque eveniet, nesciunt ex officia sed veritatis autem rerum repellendus earum soluta vel temporibus quam deserunt corporis quas ab repellat reprehenderit vero.</p>
+                <div class="social-links">
+                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/mitch.r07/" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="btn">
+                    <button data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">Hire me</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--About section start-->
+    <section class="about" id="about">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1500"><span>About me</span></div>
+            <div class="about-details">
+                <div class="left" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">
+                    <img src="SidScrubbed.webp" alt=""/>
+                </div>
+                <div class="right">
+                    <div class="topic" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="200">Software is my passion</div>
+                    <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="300">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus voluptatibus praesentium libero aperiam accusamus vero perferendis. Exercitationem iusto dolorum tempore et commodi vel in dolore voluptates, veniam enim ex similique.
+                    </p>
+                    <div class="button" data-aos="zoom-in-right" data-aos-duration="1500" data-aos-delay="400">
+                        <a href="dummy-resume_Scrubbed (1).pdf" download="dummy-resume_Scrubbed(1).pdf">
+                            <button type="button">Download CV</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Projects section-->
+    <section class="projects" id="projects">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1200">
+                <span>Projects</span>
+            </div>
+            <div class="text" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
+                <div class="topic"><span>Some of my previous work</span></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore nemo dicta reiciendis nam obcaecati eius aut id maiores libero saepe exercitationem hic cupiditate quidem, laborum iusto, dolor facere, voluptatem illo.</p>
+            </div>
+
+            <div class="project-grid">
+                <article class="project-card" data-language="Python HTML" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+                    <a class="project-link" href="https://github.com/your-username/connect5" target="_blank" rel="noopener noreferrer">Connect 5</a>
+                    <video controls preload="metadata">
+                        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                    </video>
+                    <p>A strategic two-player board game built with a polished UI and turn-based logic.</p>
+                    <ul class="project-languages">
+                        <li>Python</li>
+                        <li>HTML</li>
+                    </ul>
+                </article>
+
+                <article class="project-card" data-language="JavaScript CSS" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="250">
+                    <a class="project-link" href="https://github.com/your-username/calculator" target="_blank" rel="noopener noreferrer">Calculator</a>
+                    <video controls preload="metadata">
+                        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                    </video>
+                    <p>A responsive calculator app with clear layout, basic operations, and keyboard support.</p>
+                    <ul class="project-languages">
+                        <li>JavaScript</li>
+                        <li>CSS</li>
+                    </ul>
+                </article>
+
+                <article class="project-card" data-language="Java SQL" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="300">
+                    <a class="project-link" href="https://github.com/your-username/team-manager" target="_blank" rel="noopener noreferrer">Team Manager</a>
+                    <video controls preload="metadata">
+                        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                    </video>
+                    <p>A dashboard for tracking players, schedules, and team performance in one place.</p>
+                    <ul class="project-languages">
+                        <li>Java</li>
+                        <li>SQL</li>
+                    </ul>
+                </article>
+
+                <article class="project-card" data-language="HTML CSS JavaScript" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="350">
+                    <a class="project-link" href="https://github.com/your-username/portfolio-site" target="_blank" rel="noopener noreferrer">Portfolio Site</a>
+                    <video controls preload="metadata">
+                        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                    </video>
+                    <p>A modern personal portfolio with animation, responsive sections, and a clean visual language.</p>
+                    <ul class="project-languages">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </article>
+
+                <article class="project-card" data-language="Python SQL" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
+                    <a class="project-link" href="https://github.com/your-username/data-dashboard" target="_blank" rel="noopener noreferrer">Data Dashboard</a>
+                    <video controls preload="metadata">
+                        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                    </video>
+                    <p>An interactive dashboard that presents project metrics with clear filters and summaries.</p>
+                    <ul class="project-languages">
+                        <li>Python</li>
+                        <li>SQL</li>
+                    </ul>
+                </article>
+
+                <article class="project-card" data-language="PHP MySQL" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="450">
+                    <a class="project-link" href="https://github.com/your-username/ecommerce-store" target="_blank" rel="noopener noreferrer">Ecommerce Store</a>
+                    <video controls preload="metadata">
+                        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                    </video>
+                    <p>A small storefront experience with product listings, cart logic, and checkout flow.</p>
+                    <ul class="project-languages">
+                        <li>PHP</li>
+                        <li>MySQL</li>
+                    </ul>
+                </article>
+
+                <article class="project-card" data-language="C# Unity" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="500">
+                    <a class="project-link" href="https://github.com/your-username/game-jam" target="_blank" rel="noopener noreferrer">Game Jam</a>
+                    <video controls preload="metadata">
+                        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                    </video>
+                    <p>A short game prototype created for a timed challenge with simple mechanics and feedback.</p>
+                    <ul class="project-languages">
+                        <li>C#</li>
+                        <li>Unity</li>
+                    </ul>
+                </article>
+
+                <article class="project-card" data-language="JavaScript React" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="550">
+                    <a class="project-link" href="https://github.com/your-username/playlist-app" target="_blank" rel="noopener noreferrer">Playlist App</a>
+                    <video controls preload="metadata">
+                        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                    </video>
+                    <p>A music-listening app focused on playlists, favorites, and smooth user interaction.</p>
+                    <ul class="project-languages">
+                        <li>JavaScript</li>
+                        <li>React</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--My Skills-->
+    <section class="skills" id="skills">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1200"><span>My Results</span></div>
+            <div class="skills-details">
+                <div class="text">
+                    <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">
+                        Results reflects our knowledge
+                    </div>
+                    <p data-aos="fade-right" data-aos-duration="1200" data-aos-delay="400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nulla debitis temporibus pariatur soluta officia! Quam assumenda magni commodi voluptatem delectus unde, deleniti quaerat minus, itaque adipisci eligendi temporibus quo.</p>
+                    <div class="experience" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="600">
+                    <div class="num">5.7</div>
+                        <div class="exp">
+                            GPA <br/>
+                            /7
+                        </div>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <div class="box">
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">Mathematics 2</div>
+                        <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">HD</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">Data structures and Algorithms</div>
+                        <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">HD</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">Programming 1</div>
+                        <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">HD</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">Database Fundamentals</div>
+                        <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">HD</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">Mathematics 1</div>
+                        <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">D</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">Programming 2</div>
+                        <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">D</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">Information System Develop Methodologies</div>
+                        <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">D</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">C#</div>
+                        <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">D</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--My services selection start-->
+    <section class="services" id="services">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="0"><span>My Languages</span></div>
+            <div class="boxes">
+                <div class="box language-card" data-language="Python" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                    <div class="icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                <div class="topic">Python</div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, rerum sit dicta molestiae, explicabo architecto numquam possimus alias adipisci laudantium non quisquam minus esse, perspiciatis officia vel accusamus facilis veniam.</p>
+                </div>
+                <div class="box language-card" data-language="Java" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
+                    <div class="icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                <div class="topic">Java</div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, rerum sit dicta molestiae, explicabo architecto numquam possimus alias adipisci laudantium non quisquam minus esse, perspiciatis officia vel accusamus facilis veniam.</p>
+                </div>
+                <div class="box language-card" data-language="C++" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
+                    <div class="icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                <div class="topic">C++</div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, rerum sit dicta molestiae, explicabo architecto numquam possimus alias adipisci laudantium non quisquam minus esse, perspiciatis officia vel accusamus facilis veniam.</p>
+                </div>
+                <div class="box language-card" data-language="HTML" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="800">
+                    <div class="icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                <div class="topic">HTML</div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, rerum sit dicta molestiae, explicabo architecto numquam possimus alias adipisci laudantium non quisquam minus esse, perspiciatis officia vel accusamus facilis veniam.</p>
+                </div>
+                <div class="box language-card" data-language="SQL" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="1000">
+                    <div class="icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                <div class="topic">SQL</div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, rerum sit dicta molestiae, explicabo architecto numquam possimus alias adipisci laudantium non quisquam minus esse, perspiciatis officia vel accusamus facilis veniam.</p>
+                </div>
+                <div class="box language-card" data-language="JavaScript" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="1200">
+                    <div class="icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                <div class="topic">Java Script</div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, rerum sit dicta molestiae, explicabo architecto numquam possimus alias adipisci laudantium non quisquam minus esse, perspiciatis officia vel accusamus facilis veniam.</p>
+                </div>
+                <div class="box language-card" data-language="C#" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="1400">
+                    <div class="icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                <div class="topic">C#</div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, rerum sit dicta molestiae, explicabo architecto numquam possimus alias adipisci laudantium non quisquam minus esse, perspiciatis officia vel accusamus facilis veniam.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Contact me section-->
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="0">
+                <span> Contact Me</span>
+            </div>
+            <div class="text">
+                <div class="topic" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">Have Any Questions?</div>
+                <p data-aos="fade-right" data-aos-duration="1200" data-aos-delay="400">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium ullam ab quos sit, provident debitis excepturi sed dolores voluptatem consequatur laudantium consectetur fuga sint voluptatum consequuntur quaerat nulla! Eius, temporibus?</p>
+                <div class="button" data-aos="zoom-in-right" data-aos-duration="1200" data-aos-delay="600">
+                    <a id="contactLink" class="email-button" href="#">Let's chat</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--footer section-->
+    <footer>
+        <div class="text">
+            <span>Created by Mitchell 2026 All Rights Reserved</span>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init({offset:0});
+    const contactLink = document.getElementById('contactLink');
+    if (contactLink) {
+      const user = 'mitchellroberson490';
+      const domain = 'gmail.com';
+      contactLink.href = `mailto:${user}@${domain}`;
+    }
+    </script>
+
+
+</body>
+</html>
